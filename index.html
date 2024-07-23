@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY BANK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Your Dashboard</h1>
+        <div class="profile">
+            <img src="asset/WhatsApp Image 2024-06-21 at 14.49.27_b77e3868.jpg" alt="profile pic">
+        </div>
+    </nav>
+    <div class="main">
+        <div class="deposit">
+            <h4>Total Deposit</h4>
+            <p>$ <span id="deposit">0</span></p>
+        </div>
+        <div class="withdraw">
+            <h4>Total Withdraw</h4>
+            <p>$ <span id="withdraw">0</span></p>
+        </div>
+        <div class="balance">
+            <h4>Total Balance</h4>
+            <p>$ <span id="balance">1200</span></p>
+        </div>
+    </div>
+    <div class="transactions">
+        <div class="deposit-input">
+            <h2>Deposit</h2>
+            <input class="deposit_input-box" type="number" min="0" placeholder="Deposit amount">
+            <button class="deposit-btn">Deposit</button>
+        </div>
+        <div class="withdraw-input">
+            <h2>Withdraw</h2>
+            <input class="withdraw_input-box" type="number" min="0" placeholder="Withdraw amount">
+            <button class="withdraw-btn">Withdraw</button>
+        </div>
+    </div>
+<script src="index.js"></script>    
+</body>
+</html
