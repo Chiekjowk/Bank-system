@@ -14,6 +14,10 @@ nav{
     margin: 1rem  2.5rem;
     
 }
+.navbar h1{
+    font-size: 2em;
+    font-weight:900 ;
+}
 .profile{
     width: 60px;
     height: 60px;
@@ -27,7 +31,7 @@ nav{
 
 .profile img{
     width: 60px;
-    height: 70px;
+    height: 60px;
     border-radius: 50%;
 }
 
@@ -85,6 +89,7 @@ nav{
 .main .balance h4{
     font-size: 1.3em;
     margin-bottom: .5rem;
+    font-weight: 900;
 }
 .main .balance p{
     font-size: 1.4em;
