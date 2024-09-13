@@ -15,17 +15,22 @@ nav{
     
 }
 .profile{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border: none;
     border-radius: 50%;
+    background: url("asset/WhatsApp Image 2024-06-21 at 14.49.27_b77e3868.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
 }
 
 .profile img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 70px;
     border-radius: 50%;
 }
+
 .main{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -157,3 +162,40 @@ nav{
     border-radius: 5px;
 }
 
+@media screen and (max-width: 430px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2.5rem;
+        margin: 1rem;
+    }
+    .transactions{
+        margin: 2.5rem;
+        padding: 2rem;
+    }
+    .withdraw-input{  
+        margin: 1rem 1rem 3rem 1rem ;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2.5rem;
+        margin: 1rem;
+    }
+    .transactions{
+        margin: 2rem .2rem;
+    }
+    .withdraw-input{  
+
+        margin: 1rem 1rem 2rem 1rem ;
+ 
+       
+    }
+
+    
+}
